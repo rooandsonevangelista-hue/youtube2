@@ -1,0 +1,58 @@
+.video{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+}
+
+.titulo-video{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 2px;
+  
+    
+}
+
+.logo{
+    height: 40px;
+    width: auto;
+    border-radius: 50px;
+
+}
+
+.caixa-user{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.descricao-user{
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    min-width: 490px;
+    p{
+        margin: 0 !important;
+    }
+}
+
+.img-k{
+    border-radius: 10px;
+}
+
+.botao-ins{
+    background-color: gray !important;
+
+}
+
+.body{
+    padding-bottom: 20px;
+    background-color:var(--surface-variant) !important;
+}
+
+.grid{
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
